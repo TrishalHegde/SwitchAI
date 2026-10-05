@@ -1,0 +1,22 @@
+{
+  "name": "@switch-ai/providers",
+  "version": "0.1.0",
+  "description": "Provider abstraction and OpenAI-compatible provider clients for SwitchAI",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openai": "^7.28.0"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
